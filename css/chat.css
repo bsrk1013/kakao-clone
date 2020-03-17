@@ -1,0 +1,103 @@
+.chat__body{
+    padding: 0;
+}
+.chat-screen{
+    background-image: url("../images/20200307_153524.jpg");
+    min-height: 100vh;
+}
+
+.chat__write{
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f7f7f7;
+    border-radius: 40px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat__write i{
+    font-size: 22px;
+}
+
+.chat__write-column:nth-child(2){
+    width: 80%;
+}
+
+.chat__write-column input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+.chat__write-column input:focus{
+    outline: none;
+}
+
+.chat-screen .chat__messages{
+    border-top: 1px solid #f7f7f7;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.chat__messages .chat__timestamp{
+    background-color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.message{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.message .message__content{
+    width: 80%;
+}
+
+.message .message__text{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.recv-message{
+    align-self: flex-start;
+}
+.recv-message img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.recv-message .message__author{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 700;
+}
+.recv-message.message .message__text{
+    border-top-left-radius: 0px;
+}
+
+.my-message{
+    align-self: flex-end;
+    text-align: right;
+}
+.my-message.message .message__text{
+    background-color: yellow;
+    border-top-right-radius: 0px;
+}

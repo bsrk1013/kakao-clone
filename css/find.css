@@ -1,0 +1,27 @@
+.find .find__header-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+.find .header-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find .header-btn__icon{
+display: block;
+margin-bottom: 10px;
+}
+
+.find .find__recommended{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.find__recommended .find__title{
+    opacity: 0.6;
+    margin-bottom: 15px;
+}

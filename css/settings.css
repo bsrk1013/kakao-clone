@@ -1,0 +1,33 @@
+.settings__haeder{
+    display: flex;
+}
+
+.settings__haeder a{
+    margin-right: 20px;
+}
+
+.settings__top{
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.settings__middle,
+.settings__bottom{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.settings-btn{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-btn i{
+    margin-right: 15px;
+}
+
+.settings-vsersion{
+    opacity: 0.6;
+}
